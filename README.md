@@ -1,3 +1,4 @@
+A change to push.
 # Sprint Challenge: Advanced React - Women's World Cup
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored class components, custom hooks, and testing. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that consumes data from an API using a custom hook, displays that data on the DOM, and tests your React components.
@@ -10,7 +11,7 @@ The data you will get back from the server will be the Women's World Cup players
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency with ReactJS Fundamentals and your command of the concepts and techniques in the Functional Components.
+You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL and Instructor in your cohort help channel on Slack. Your work reflects your proficiency with ReactJS Fundamentals and your command of the concepts and techniques in the Functional Components.
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
@@ -22,10 +23,23 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Why would you use class component over function components (removing hooks from the question)?
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+### [ ] Why would you use class component over function components (removing hooks from the question)?
+
+    Functional components should be used if you are writing a presentational component which doesn’t have its own state or needs to access a lifecycle hook. Otherwise you can stick to class components or take a look into the library recompose which allows you to write functional components and enhance them with a state or lifecycle hooks with HOCs!
+
+### [ ] Name three lifecycle methods and their purposes.
+
+    Mounting – Birth of your component
+    Update – Growth of your component
+    Unmount – Death of your component
+
+### [ ] What is the purpose of a custom hook?
+
+    Custom Hooks are a mechanism to reuse stateful logic (such as setting up a subscription and remembering the current value), but every time you use a custom Hook, all state and effects inside of it are fully isolated.
+
+### [ ] Why is it important to test our apps?
+
+    Testing determines whether the app can be successfully downloaded, executed and interacted with the supporting back-end content infrastructure. It's a vital factor in the development process that brings to market the high-quality product. Real device testing. It helps to guarantee an in-depth analysis of functionality.
 
 ## Project Set Up
 
@@ -45,8 +59,8 @@ Follow these steps to set up and work on your project:
 Follow these steps for completing your project:
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [ ] Add your Team Lead as a Reviewer on the Pull-request.
+- [ ] TL then will count the HW as done by merging the branch back into master.
 
 ## Minimum Viable Product
 
